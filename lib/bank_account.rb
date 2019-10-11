@@ -24,9 +24,5 @@ class BankAccount
   end
   
   def close_account
-    if self.status == "open"
       self.status = "closed"
-    else self.status = "closed"
-    end
-  end
 end
